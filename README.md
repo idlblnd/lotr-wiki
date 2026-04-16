@@ -43,43 +43,6 @@ src/
   services/     API request helpers
 ```
 
-## Getting Started
-
-### 1. Install dependencies
-
-```bash
-npm install
-```
-
-### 2. Add your API key
-
-Create a `.env` file in the project root:
-
-```bash
-cp .env.example .env
-```
-
-Then set your key:
-
-```env
-VITE_THE_ONE_API_KEY=your_api_key_here
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-## Available Scripts
-
-```bash
-npm run dev
-npm run build
-npm run preview
-npm run lint
-```
-
 ## Features in Practice
 
 ### API Integration and Data Handling
@@ -99,19 +62,11 @@ npm run lint
 - Reusable data logic is moved into `src/hooks`
 - Props and local state are used to keep page behavior modular and readable
 
-### UI / UX
-
-- Responsive layouts built with Tailwind utility classes
-- Mobile navigation support
-- Clear transitions between list pages and detail pages
-- Thematic visual design without relying on a pre-built template
-
 ## Quality Notes
 
 - Tailwind CSS is used throughout the project for styling
 - Repeated feedback states were refactored into shared components
 - Comments are kept light and intentional so the code still feels clean
-- The app was checked with `npm run lint`
 
 ## Author
 
